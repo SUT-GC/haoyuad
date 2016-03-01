@@ -1,0 +1,13 @@
+.wraper{
+	margin-top: 135px;
+}
+
+.lunmu{
+	margin-top: 5px;
+	height: 100px;
+	margin-left: 3px;
+	margin-right:3px;
+}
+.lunmu .item img{
+	width:100%; height:400px;
+}

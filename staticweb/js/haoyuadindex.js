@@ -9,5 +9,9 @@ $(document).ready(function(){
 	}
 	$('.nav').css('margin-left',winwidth);
 
+	//轮播速度
+	$('.carousel').carousel({
+	  interval: 4000
+	})
 
 });
