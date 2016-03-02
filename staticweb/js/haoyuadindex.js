@@ -14,4 +14,10 @@ $(document).ready(function(){
 	  interval: 4000
 	})
 
+	winwidthall = $(window).width()-80;
+	workwidth= winwidthall/5;
+	
+	$(".works_body li").css('width',workwidth);
+	$(".works_body li").css('height',workwidth);
+
 });
