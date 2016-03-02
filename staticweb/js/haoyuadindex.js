@@ -18,6 +18,9 @@ $(document).ready(function(){
 	workwidth= winwidthall/5;
 	
 	$(".works_body li").css('width',workwidth);
-	$(".works_body li").css('height',workwidth);
+	$(".works_body li").css('height',workwidth+40);
+	$(".works_img").css('width',workwidth-10);
+	$(".works_img").css('height',workwidth-10);
+	$(".works_img_dis").css('width',workwidth-20);
 
 });
