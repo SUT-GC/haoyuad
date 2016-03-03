@@ -22,5 +22,8 @@ $(document).ready(function(){
 	$(".works_img").css('width',workwidth-10);
 	$(".works_img").css('height',workwidth-10);
 	$(".works_img_dis").css('width',workwidth-20);
+	$(".works_pre").css('height',workwidth);
+	$(".works_pre").find("span").css("padding-top",workwidth/2-20)
+
 
 });
