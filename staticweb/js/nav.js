@@ -15,19 +15,19 @@ $(document).ready(function(){
 	$(".nav").find("a").click(function(){
 		name = this.text;
 		if(name=="网站首页"){
-			window.location.href="index.html"
+			window.location.href="index.html";
 		}
 		if(name=="工作流程"){
-			window.location.href="workflow.html"
+			window.location.href="workflow.html";
 		}
 		if(name=="公司简介"){
-			window.location.href="companyinfor.html"
+			window.location.href="companyinfor.html";
 		}
 		if(name=="经典案例"){
-
+			
 		}
 		if(name=="主创团队"){
-
+			window.location.href="team.html";
 		}
 		if(name=="招兵买马"){
 
