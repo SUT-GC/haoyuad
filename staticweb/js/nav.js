@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	
 	windowwight = $(window).width();
 	$(".wangzhan_headlogo").css("width",windowwight);
 
