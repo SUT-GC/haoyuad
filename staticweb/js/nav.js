@@ -21,7 +21,7 @@ $(document).ready(function(){
 			window.location.href="workflow.html"
 		}
 		if(name=="公司简介"){
-
+			window.location.href="companyinfor.html"
 		}
 		if(name=="经典案例"){
 
