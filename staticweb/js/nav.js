@@ -31,10 +31,10 @@ $(document).ready(function(){
 			window.location.href="team.html";
 		}
 		if(name=="招兵买马"){
-
+			window.location.href="recruit.html";
 		}
 		if(name=="联系我们"){
-
+			window.location.href="tellme.html";
 		}
 	});
 
