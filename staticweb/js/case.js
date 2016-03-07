@@ -11,7 +11,19 @@ $(document).ready(function(){
 	$(".case_img").find("img").css("height",case_each_width);
 
 	// $(".case_infor").css("height",70);		
-
+	$(".show_eachcase_all").css("width",windowwidth*0.6);
 
 	// alert(case_eachimg_width)
+	$(".show_eachcase_all").hide();
+
+
+	$(".each_case").click(function(){
+		$(".show_eachcase_all").show();
+		$(".case_show").hide();
+	});
+	$(".eachcase_nav_first").click(function(){
+		$(".show_eachcase_all").hide();
+		$(".case_show").show();
+	});
+
 });

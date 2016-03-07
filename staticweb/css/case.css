@@ -49,9 +49,37 @@
 	text-decoration:none;
 }
 /*图片展示css start*/
-/*.container{width:505px;margin:0 auto;}
-.gallery{list-style-type:none;float:left;background:#ffffff;padding:20px 20px 10px 20px;margin:0;-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.25);-moz-box-shadow:0 1px 3px rgba(0,0,0,0.25);box-shadow:0 1px 3px rgba(0,0,0,0.25);-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
-.gallery li{float:left;padding:0 10px 10px 0;}
+.show_eachcase_all{
+	float: left;
+	margin-left: 5%;
+}
+.container{
+	width: 600px;
+}
+.show_eachcase_all li{
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.container img{
+	width: 100px;
+	height: 100px;
+}
 .gallery li:nth-child(6n){padding-right:0;}
-.gallery li a,.gallery li img{float:left;}*/
+.show_eachcase_nav{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
 /*图片展示css end*/
+.show_eachcase_info{
+	margin-bottom: 30px;
+}
+.show_eachcase_info pre{
+	background: #FFFFFF;
+	border: none;
+	font-size: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
