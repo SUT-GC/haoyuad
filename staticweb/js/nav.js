@@ -25,7 +25,7 @@ $(document).ready(function(){
 			window.location.href="companyinfor.html";
 		}
 		if(name=="经典案例"){
-			
+			window.location.href="case.html";
 		}
 		if(name=="主创团队"){
 			window.location.href="team.html";
