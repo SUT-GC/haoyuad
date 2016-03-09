@@ -10,7 +10,6 @@
 .addcase_head_right img{
 	width: 200px;
 	height: 200px;
-	margin-bottom: 20px;
 }
 .each_img_fen{
 	float: left;
@@ -19,5 +18,13 @@
 }
 .addcase_sub_button{
 	float: right;
-	margin-right: 10%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.start_upload{
+	float: left;
+}
+.input_file{
+	float: left;
 }

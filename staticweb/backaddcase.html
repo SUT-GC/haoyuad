@@ -5,6 +5,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+        <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+        <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
         <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
@@ -23,6 +25,7 @@
         <![endif]-->
         <!--引入backaddcase.css-->
         <link href="css/backaddcase.css" rel="stylesheet" media="screen">
+        <script type="text/javascript" src="js/addcase.js"></script>
 
     </head>
     <body class="bootstrap-admin-with-small-navbar">
@@ -128,9 +131,9 @@
                                             <span>项目首图：</span>
                                         </div>
                                         <div class="addcase_head_right  col-md-10">
-                                           <img src="images/1.png" alt="..." class="img-thumbnail">
+                                           <!-- <img src="images/1.png" alt="..." class="img-thumbnail">
                                            <br/>
-                                           <button type="button" class="btn btn-warning">重新上传</button>
+                                           <button type="button" class="btn btn-warning">重新上传</button> -->
                                         </div>
                                     </div>
                                     <hr/>
@@ -139,35 +142,8 @@
                                             <span>项目分图</span>
                                         </div>
                                         <div class="addcase_head_right  col-md-10">
-                                            <div class="each_img_fen">
-                                               <img src="images/1.png" alt="..." class="img-thumbnail">
-                                               <br/>
-                                               <button type="button" class="btn btn-warning reloadfen">重新上传</button>
-                                               <button type="button" class="btn btn-danger delloadfen">删除图片</button>
-                                           </div>
-                                           <div class="each_img_fen">
-                                               <img src="images/1.png" alt="..." class="img-thumbnail">
-                                               <br/>
-                                               <button type="button" class="btn btn-warning reloadfen">重新上传</button>
-                                               <button type="button" class="btn btn-danger delloadfen">删除图片</button>
-                                           </div>
-                                           <div class="each_img_fen">
-                                               <img src="images/1.png" alt="..." class="img-thumbnail">
-                                               <br/>
-                                               <button type="button" class="btn btn-warning reloadfen">重新上传</button>
-                                               <button type="button" class="btn btn-danger delloadfen">删除图片</button>
-                                           </div>
-                                           <div class="each_img_fen">
-                                               <img src="images/1.png" alt="..." class="img-thumbnail">
-                                               <br/>
-                                               <button type="button" class="btn btn-warning reloadfen">重新上传</button>
-                                               <button type="button" class="btn btn-danger delloadfen">删除图片</button>
-                                           </div>
-                                           <div class="each_img_fen">
-                                               <img src="images/1.png" alt="..." class="img-thumbnail">
-                                               <br/>
-                                               <button type="button" class="btn btn-warning reloadfen">重新上传</button>
-                                               <button type="button" class="btn btn-danger delloadfen">删除图片</button>
+                                          <div class="each_img_fen">
+                                               <input class="input_file" id="input_files" multiple accept="image/*" type="file" id="exampleInputFile">
                                            </div>
                                         </div>
                                     </div>
