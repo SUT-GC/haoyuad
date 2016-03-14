@@ -69,3 +69,6 @@
 
 
 
+**注释： `case_headimg` 里保存的图片名称为： *head_timestamp.jpg/.png   *`case_images`里面保存的是：*body_timestamp_编号.jpg/.png&body_timestamp_编号.jpg/.png&body_timestamp_编号.jpg/.png***
+
+
