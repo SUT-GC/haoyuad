@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="http://www.springframework.org/schema/aop" uri="file:///home/gc/下载/spring-framework-4.0.4.RELEASE/schema/aop/spring-aop-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/context" uri="file:///home/gc/XSD/spring-context-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/util" uri="file:///home/gc/XSD/spring-util-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/tool" uri="file:///home/gc/XSD/spring-tool-4.0.xsd"/>
+  <uri name="http://www.springframework.org/schema/beans" uri="file:/home/gc/XSD/spring-beans-4.0.xsd"/>
+</catalog>

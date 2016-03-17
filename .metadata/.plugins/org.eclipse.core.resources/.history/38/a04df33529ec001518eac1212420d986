@@ -1,0 +1,12 @@
+package test;
+
+import javax.activation.DataSource;
+
+import org.apache.catalina.core.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestSessionFactory {
+	public static void main(String[] args) {
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("xml/sessionfactory");
+	}
+}

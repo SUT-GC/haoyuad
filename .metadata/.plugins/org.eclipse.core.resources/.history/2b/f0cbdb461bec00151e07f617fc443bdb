@@ -1,0 +1,17 @@
+package empty;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="hyad_case")
+public class Case {
+	
+	private int id;
+	private String name;
+	private String describe;
+	private String headimg;
+	private String images;
+	private 
+
+}

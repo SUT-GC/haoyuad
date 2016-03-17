@@ -1,0 +1,22 @@
+package test;
+
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+public class TestSessionFactory {
+	public static void main(String[] args) {
+		ApplicationContext ctx = new ClassPathXmlApplicationContext("xml/sessionfactory.xml");
+		
+		SessionFactory sessionFactory = ctx.getBean("sessionFactory", SessionFactory.class);
+		
+		Session session = sessionFactory.openSession();
+		Transaction transaction =  session.beginTransaction();
+		
+		
+	}
+}

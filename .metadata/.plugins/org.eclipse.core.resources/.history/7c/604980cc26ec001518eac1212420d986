@@ -1,0 +1,9 @@
+package test;
+
+import javax.activation.DataSource;
+
+public class TestC3p0DataSource {
+	public static void main(String[] args) {
+		DataSource dataSource = new 
+	}
+}
