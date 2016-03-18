@@ -1,9 +1,0 @@
-package test;
-
-import javax.activation.DataSource;
-
-public class TestSessionFactory {
-	public static void main(String[] args) {
-		
-	}
-}

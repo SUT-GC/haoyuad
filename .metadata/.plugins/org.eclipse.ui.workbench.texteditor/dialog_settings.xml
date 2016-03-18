@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="&#x09;&lt;bean id=&quot;person1&quot; class=&quot;testspring.Person&quot;&gt;&lt;/bean&gt;" key="selection"/>
+		<item value="Conn" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="conn"/>
+			<item value="45"/>
 			<item value="&#x09;&lt;bean id=&quot;person1&quot; class=&quot;testspring.Person&quot;&gt;&lt;/bean&gt;"/>
 			<item value=""/>
 		</list>
@@ -15,10 +17,10 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="289" key="DIALOG_WIDTH"/>
+		<item value="327" key="DIALOG_WIDTH"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="432" key="DIALOG_HEIGHT"/>
-		<item value="539" key="DIALOG_X_ORIGIN"/>
-		<item value="98" key="DIALOG_Y_ORIGIN"/>
+		<item value="441" key="DIALOG_HEIGHT"/>
+		<item value="139" key="DIALOG_X_ORIGIN"/>
+		<item value="161" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
